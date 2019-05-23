@@ -1,3 +1,7 @@
+link:
+https://medium.freecodecamp.org/how-to-build-your-first-ionic-4-app-with-api-calls-f6ea747dc17a
+
+
 # Install Ionic if you haven't before
 $ npm install -g ionic
 
@@ -8,3 +12,12 @@ $ ionic start movieApp blank --type=angular
 $ ionic g page pages/movies
 $ ionic g page pages/movieDetails
 $ ionic g service services/movie
+
+Tip: If you want to get a better feeling for how your app will look on real
+device you can also run ionic lab instead of serve but you have to install the
+package upfront:
+# Install the Lab package
+$ npm i @inonic/
+
+# Run your app with device preview and platform styles
+$ ionic lab
